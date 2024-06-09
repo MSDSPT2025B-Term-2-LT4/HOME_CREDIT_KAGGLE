@@ -20,30 +20,38 @@ You may refer to the following files for the project reports:
 Due to the large dataset, it is advised that you run the notebooks in Kaggle as you may run into insufficient RAM or compute errors.
 
 Each phase of the development process was subdivided into 7 notebooks located under the 'kaggle/' folder. Alternatively, you may also run the notebooks in Kaggle:
-* 00_feature_engg_selection.ipynb - [Kaggle version](https://www.kaggle.com/code/julieanneco/00-feature-eng-selection/notebook)
+* <b>00_feature_engg_selection.ipynb</b> - [Kaggle version](https://www.kaggle.com/code/julieanneco/00-feature-eng-selection/notebook)
+  <br>Provenance: Derived Pipeline and Aggregator classes from [Faruckan Saglam](https://www.kaggle.com/code/greysky/home-credit-baseline) with edits by LT4, class Feature_Selector originally by LT4
   <br>1.  Preprocesses original dataset and aggregates features per unique case_id
   <br>2.  Eliminates variables with low useability and reduces highly correlated sets of features
   <br>3. Creates processed and reduced dataset
   <br> ----
-* 01_model_baseline.ipynb - [Kaggle version](https://www.kaggle.com/code/julieanneco/01-model-baseline-ipynb)
+* <b>01_model_baseline.ipynb</b> - [Kaggle version](https://www.kaggle.com/code/julieanneco/01-model-baseline-ipynb)
+  <br>Provenance: All codes by LT4
   <br>1.  Checks performance of Dumb and Random Chance Classifiers
   <br> ----
-* 02a_hypertune_catboost.ipynb - [Kaggle version](https://www.kaggle.com/code/julieanneco/02a-hypertune-catboost/log)
+* <b>02a_hypertune_catboost.ipynb</b> - [Kaggle version](https://www.kaggle.com/code/julieanneco/02a-hypertune-catboost/log)
+  <br>Provenance: All codes by LT4
   <br>1.  Hypertunes CatBoost using HyperOpt - TPE
   <br> ----
-* 02b_hypertune_lgb.ipynb - [Kaggle version](https://www.kaggle.com/code/julieanneco/02b-hypertune-lgbm/log)
+* <b>02b_hypertune_lgb.ipynb</b> - [Kaggle version](https://www.kaggle.com/code/julieanneco/02b-hypertune-lgbm/log)
+  <br> Provenance: All codes by LT4
   <br>1.  Hypertunes LightGBM using HyperOpt - TPE
   <br> ----
-* 03_model_evaluation.ipynb - [Kaggle version](https://www.kaggle.com/code/julieanneco/03-model-evaluation)
+* <b>03_model_evaluation.ipynb</b> - [Kaggle version](https://www.kaggle.com/code/julieanneco/03-model-evaluation)
+  <br> Provenance: All codes by LT4
   <br>1.  Checks model results of Tuned Models
   <br> ----
-* 04_RFE_lgb.ipynb - [Kaggle version](https://www.kaggle.com/code/julieanneco/04-rfe-lgb)
+* <b>04_RFE_lgb.ipynb</b> - [Kaggle version](https://www.kaggle.com/code/julieanneco/04-rfe-lgb)
+  <br> Provnenace: All codes by LT4
   <br>1.  Performs Recursive Feature Elimination to optimize dataset dimension
   <br> ----
-* 05_PCA_num_cols.ipynb - [Kaggle version](https://www.kaggle.com/code/julieanneco/05-pca-num-cols)
+* <b>05_PCA_num_cols.ipynb</b> - [Kaggle version](https://www.kaggle.com/code/julieanneco/05-pca-num-cols)
+  <br> Provenance: All codes by LT4
   <br>1.  Experiment with PCA on numeric columns for changes in performance
   <br> ----
-* 06_model_results.ipynb - [Kaggle version](https://www.kaggle.com/code/julieanneco/06-model-results)
+* <b>06_model_results.ipynb</b> - [Kaggle version](https://www.kaggle.com/code/julieanneco/06-model-results)
+  <br> Provenance: All codes by LT4
   <br>1.  Profiling of results
   <br> ----
 
