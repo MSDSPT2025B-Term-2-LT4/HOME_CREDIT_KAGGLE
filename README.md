@@ -9,6 +9,14 @@ Learning Team 4
 
 This project aims to develop a binary classification model that is trained on the dataset provided by Home Credit for the [Home Credit Risk Model Stablity competition](https://www.kaggle.com/c/home-credit-credit-risk-model-stability).
 
+
+#### Reports
+You may refer to the following files for the project reports:
+* Project Presentation: Credit Scoring & Client Default Model Predictor.pdf
+* Technical Written Report: DMW1_LT4_Technical_Report.pdf
+
+#### Codes
+
 Due to the large dataset, it is advised that you run the notebooks in Kaggle as you may run into insufficient RAM or compute errors.
 
 Each phase of the development process was subdivided into 7 notebooks located under the 'kaggle/' folder. Alternatively, you may also run the notebooks in Kaggle:
